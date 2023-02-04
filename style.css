@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTQ3MjE2Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-size: cover;    
+  
+}
+.container-primairio{
+    background-color: #000000;
+    width: 100%;
+    max-width: 660px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+
+    
+}
+.container-primairio,input,::placeholder{
+    color: white;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #4f4f83;
+    width: calc(100% - 100px);
+    
+    
+}
+button{
+    border: none;
+    outline: none;
+    padding: 9px;
+    border-radius: 47px;
+    background-color: #86868d;
+    float: right;
+}
+button:hover{
+  background-color: #afafdb;
+  cursor: pointer;
+}
+
+.lupa{
+    height: 25px;
+}
+h2{
+    color: wheat;
+    font-size: 28px;
+}
+
+.container-secundario{
+    margin-top: 20px;
+}
+.caixa-menor{
+    display: flex;
+    margin-top: 30px;
+    align-items: flex-start;
+
+}
+.tempo{
+    
+    color: wheat;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+.descricao{
+    color: wheat;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.umidade{
+    color: #afafdb;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.nuvem{
+    margin-right: -15px;
+}
